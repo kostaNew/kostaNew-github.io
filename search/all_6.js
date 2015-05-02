@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['xasum_2ec',['xasum.c',['../xasum_8c.html',1,'']]],
+  ['xasum_2eh',['xasum.h',['../xasum_8h.html',1,'']]],
+  ['xasum_5ftest_2ecpp',['xasum_test.cpp',['../xasum__test_8cpp.html',1,'']]],
+  ['xaxpy_2ec',['xaxpy.c',['../xaxpy_8c.html',1,'']]],
+  ['xaxpy_2eh',['xaxpy.h',['../xaxpy_8h.html',1,'']]],
+  ['xcopy_2eh',['xcopy.h',['../xcopy_8h.html',1,'']]],
+  ['xdot_2ec',['xdot.c',['../xdot_8c.html',1,'']]],
+  ['xdot_2eh',['xdot.h',['../xdot_8h.html',1,'']]],
+  ['xdot_5ftest_2ecpp',['xdot_test.cpp',['../xdot__test_8cpp.html',1,'']]],
+  ['xnrm2_2ec',['xnrm2.c',['../xnrm2_8c.html',1,'']]],
+  ['xnrm2_2eh',['xnrm2.h',['../xnrm2_8h.html',1,'']]],
+  ['xscal_2ec',['xscal.c',['../xscal_8c.html',1,'']]],
+  ['xscal_2eh',['xscal.h',['../xscal_8h.html',1,'']]],
+  ['xscal_5ftest_2ecpp',['xscal_test.cpp',['../xscal__test_8cpp.html',1,'']]],
+  ['xswap_2ec',['xswap.c',['../xswap_8c.html',1,'']]],
+  ['xswap_2eh',['xswap.h',['../xswap_8h.html',1,'']]],
+  ['xswap_5ftest_2ecpp',['xswap_test.cpp',['../xswap__test_8cpp.html',1,'']]]
+];
