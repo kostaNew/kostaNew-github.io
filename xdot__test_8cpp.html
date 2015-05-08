@@ -3,16 +3,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<meta name="generator" content="Doxygen 1.8.9.1"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
 <title>Study BLAS: Файл test/xdot_test.cpp</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <script type="text/javascript">
-  $(document).ready(function() { init_search(); });
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
@@ -32,7 +31,7 @@
 </table>
 </div>
 <!-- end header part -->
-<!-- Создано системой Doxygen 1.8.9.1 -->
+<!-- Создано системой Doxygen 1.8.6 -->
 <script type="text/javascript">
 var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 </script>
@@ -70,7 +69,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-</div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Указатель</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Файлы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Функции</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Страницы</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -91,14 +90,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 <div class="title">Файл xdot_test.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;gtest.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="xdot_8h_source.html">xdot.h</a>&quot;</code><br />
+
+<p>Тесты для скалярного произведения векторов  
+<a href="#details">Подробнее...</a></p>
+<div class="textblock"><code>#include &quot;gtest.h&quot;</code><br/>
+<code>#include &quot;<a class="el" href="xdot_8h_source.html">xdot.h</a>&quot;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Граф включаемых заголовочных файлов для xdot_test.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="xdot__test_8cpp__incl.png" border="0" usemap="#test_2xdot__test_8cpp" alt=""/></div>
 <map name="test_2xdot__test_8cpp" id="test_2xdot__test_8cpp">
-<area shape="rect" id="node3" href="xdot_8h.html" title="xdot.h" alt="" coords="93,80,151,107"/></map>
+<area shape="rect" id="node3" href="xdot_8h.html" title="Вычисляет скалярное произведение векторов. " alt="" coords="92,80,149,107"/></map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -112,7 +114,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 <tr class="memitem:a3a7ec400cd3ba7cdcb60b2abaf9114b2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xdot__test_8cpp.html#a3a7ec400cd3ba7cdcb60b2abaf9114b2">TEST</a> (xdotDoubleIncTest, postive)</td></tr>
 <tr class="separator:a3a7ec400cd3ba7cdcb60b2abaf9114b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Функции</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Тесты для скалярного произведения векторов </p>
+</div><h2 class="groupheader">Функции</h2>
 <a class="anchor" id="ad4010080a5623b25dab1ab20eb03339e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -136,6 +140,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Наивный тест скалярного произведения векторов типа float. Incx, incy равны 1. </p>
 
 <p><div class="dynheader">
 Граф вызовов:</div>
@@ -171,6 +176,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Наивный тест скалярного произведения векторов типа double. Incx, incy равны 1. </p>
 
 <p><div class="dynheader">
 Граф вызовов:</div>
@@ -206,6 +212,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Тест различных incx, incy для скалярного произведения векторов типа float. </p>
 
 <p><div class="dynheader">
 Граф вызовов:</div>
@@ -241,6 +248,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Тест различных incx, incy для скалярного произведения векторов типа double. </p>
 
 <p><div class="dynheader">
 Граф вызовов:</div>
@@ -256,9 +264,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Документация по Study BLAS. Последние изменения: Сб 2 Май 2015 12:50:08. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+Документация по Study BLAS. Последние изменения: Пт 8 Май 2015 18:32:22. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.9.1
+</a> 1.8.6
 </small></address>
 </body>
 </html>
